@@ -1,43 +1,47 @@
 import React from 'react';
 import { ExternalLink, Code2 } from 'lucide-react';
 import { motion } from 'framer-motion';
+import CVGenerator from '../assets/cv-generator.jpeg';
+import PortalAvellaneda from '../assets/portal-avellaneda.jpeg';
+import MonsterEnergyLanding from '../assets/monster-energy.jpeg';
+import ColorPickerPro from '../assets/color-picker.jpeg';
 
 const projects = [
   {
-    title: "CV-Maker",
+    title: "CV-Generator",
     description: "Herramienta interactiva para la creación de currículums profesionales con exportación instantánea.",
     tag: "Herramienta Compleja",
     tech: ["React", "Tailwind", "PDF Lib"],
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=800&auto=format&fit=crop",
-    demo: "#",
-    code: "#"
+    image: CVGenerator,
+    demo: "https://cv-generator-by-crissgnz.vercel.app/",
+    code: "https://github.com/crissgnz-dev/resume-builder"
   },
   {
     title: "Portal Avellaneda",
     description: "Plataforma institucional con diseño sobrio y navegación optimizada para servicios locales.",
     tag: "Proyecto Institucional",
     tech: ["React", "CSS Modules", "Vite"],
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop",
-    demo: "#",
-    code: "#"
+    image: PortalAvellaneda,
+    demo: "https://mda-pantalla-categoria.netlify.app/",
+    code: "https://github.com/crissgnz-dev/demo-mda-pantalla-categoria"
   },
   {
     title: "Monster Energy Landing",
     description: "Landing page de alto impacto con animaciones vibrantes y estética gamer.",
     tag: "Landing Page",
     tech: ["React", "Framer Motion", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=800&auto=format&fit=crop",
-    demo: "#",
-    code: "#"
+    image: MonsterEnergyLanding,
+    demo: "https://crissgnz-dev.github.io/monster-energy-homepage/",
+    code: "https://github.com/crissgnz-dev/monster-energy-homepage"
   },
   {
     title: "Color Picker Pro",
     description: "Utilidad minimalista para desarrolladores y diseñadores con gestión de paletas.",
     tag: "Utility Tool",
     tech: ["JavaScript", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=800&auto=format&fit=crop",
-    demo: "#",
-    code: "#"
+    image: ColorPickerPro,
+    demo: "https://color-picker-crissgnz.vercel.app/",
+    code: "https://github.com/crissgnz-dev/color-picker"
   }
 ];
 
@@ -75,11 +79,11 @@ const ProjectCard = ({ project, index }) => (
       </div>
       
       <div className="grid grid-cols-2 gap-4">
-        <a href={project.demo} className="flex items-center justify-center gap-2 bg-white text-black py-3 rounded-xl font-bold hover:bg-zinc-200 transition-colors text-sm">
+        <a href={project.demo} target='_blank' rel='noopener noreferrer' className="flex items-center justify-center gap-2 bg-white text-black py-3 rounded-xl font-bold hover:bg-zinc-200 transition-colors text-sm">
           <ExternalLink size={16} />
           Ver Demo
         </a>
-        <a href={project.code} className="flex items-center justify-center gap-2 bg-zinc-800 text-white py-3 rounded-xl font-bold hover:bg-zinc-700 transition-colors text-sm">
+        <a href={project.code} target='_blank' rel='noopener noreferrer' className="flex items-center justify-center gap-2 bg-zinc-800 text-white py-3 rounded-xl font-bold hover:bg-zinc-700 transition-colors text-sm">
           <Code2 size={16} />
           Código
         </a>

@@ -47,5 +47,3 @@ Para correr este proyecto en tu propia máquina, sigue estos pasos:
 
 5. **Abre tu navegador:**
    Visita `http://localhost:5173`
-
-_Desarrollado con ❤️ por Cristian Gonzalez_
