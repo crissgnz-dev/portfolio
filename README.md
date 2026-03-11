@@ -48,11 +48,4 @@ Para correr este proyecto en tu propia máquina, sigue estos pasos:
 5. **Abre tu navegador:**
    Visita `http://localhost:5173`
 
-## 📞 Contacto y Redes
-
-¡Si quieres colaborar o simplemente charlar sobre desarrollo, contáctame!
-[GitHub](https://github.com/tu-usuario) | [LinkedIn](https://linkedin.com/in/tu-usuario) | [Email](mailto:tu-correo@ejemplo.com)
-
----
-
 _Desarrollado con ❤️ por Cristian Gonzalez_
