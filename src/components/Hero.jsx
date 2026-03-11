@@ -116,7 +116,9 @@ const Hero = () => {
           
           <div className="flex pt-2">
             <a
-              href="https://wa.me/your-number"
+              href="https://wa.me/541123029208?text=Hola%20Cristian,%20vi%20tu%20portfolio%20y%20me%20gustaría%20recibir%20asesoramiento%20para%20el%20desarrollo%20de%20un%20sitio%20web%20para%20mi%20negocio."
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-3 bg-white text-black px-8 py-3.5 rounded-xl font-bold hover:bg-zinc-200 transition-all transform hover:-translate-y-1 active:scale-95 shadow-lg group"
             >
               <MessageSquare size={18} className="text-zinc-600 group-hover:text-indigo-600 transition-colors" />
