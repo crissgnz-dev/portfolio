@@ -106,7 +106,7 @@ const Hero = () => {
               Cristian
             </h1>
             <p className="text-xl lg:text-2xl font-bold bg-linear-to-r from-violet-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent tracking-widest uppercase">
-              Desarrollador Fullstack
+              Desarrollador Frontend
             </p>
           </div>
           
